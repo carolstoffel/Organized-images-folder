@@ -1,7 +1,8 @@
 import os, shutil
-
 from PIL import Image
-dir = "D:\\Imagens\\snap"
+
+
+dir = "D:\\Imagens\\snap" # CHANGE HERE TO THE FOLDER YOU WANT TO ORGANIZE
 change_dir_to = os.chdir("{}".format(dir))
 
 #print(os.listdir()) # prints the files in actual folder
